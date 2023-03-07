@@ -3,7 +3,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/t171182/)**
 <!-- run online end -->
 
-This example demonstrates how to validate date column values on the client and server sides when the grid is in batch edit mode.
+This example demonstrates how to validate date column values on the client and server when the grid is in batch edit mode.
 
 ![dateValidation](images/dateValidation.png)
 
