@@ -16,7 +16,7 @@ This example demonstrates how to validate date column values on the client and s
 
 Follow the steps below:
 
-1. On the client side, handle the grid's [BatchEditRowValidating](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.BatchEditRowValidating) event. In a handler, use the [validationInfo](https://docs.devexpress.devx/AspNet/js-ASPxClientGridViewBatchEditRowValidatingEventArgs.validationInfo) argument property to get information about the modified row and call the `CheckYears` function to calculate the difference between the values of particular cells. Based on the calculated number, define whether the entered data is valid and specify an error text string for invalid data cells.
+1. On the client side, handle the grid's [BatchEditRowValidating](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.BatchEditRowValidating) event. In a handler, use the [validationInfo](https://docs.devexpress.com/AspNet/js-ASPxClientGridViewBatchEditRowValidatingEventArgs.validationInfo) argument property to get information about the modified row and call the `CheckYears` function to calculate the difference between the values of particular cells. Based on the calculated number, define whether the entered data is valid and specify an error text string for invalid data cells.
 
     ```aspx
     <dx:ASPxGridView ID="ASPxGridView1" ClientInstanceName="grid" runat="server" KeyFieldName="EmployeeID">
@@ -52,7 +52,7 @@ Follow the steps below:
     }
     ```
 
-2. On the server side, handle the grid's [RowValidating](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.RowValidating) event. In a handler, use the [NewValues](https://docs.devexpress.devx/AspNet/DevExpress.Web.ASPxGridDataValidationEventArgs.NewValues) argument property to get the new values of modified cells and call the `CheckYears` function to get the result of date calculation. Use the [Errors](https://docs.devexpress.devx/AspNet/DevExpress.Web.Data.ASPxDataValidationEventArgs.Errors) and [RowError](https://docs.devexpress.devx/AspNet/DevExpress.Web.Data.ASPxDataValidationEventArgs.RowError) argument properties to specify error text strings for invalid data cells and the [Error Row](https://docs.devexpress.devx/AspNet/3775/components/grid-view/visual-elements/error-row).
+2. On the server side, handle the grid's [RowValidating](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.RowValidating) event. In a handler, use the [NewValues](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridDataValidationEventArgs.NewValues) argument property to get the new values of modified cells and call the `CheckYears` function to get the result of date calculation. Use the [Errors](https://docs.devexpress.com/AspNet/DevExpress.Web.Data.ASPxDataValidationEventArgs.Errors) and [RowError](https://docs.devexpress.com/AspNet/DevExpress.Web.Data.ASPxDataValidationEventArgs.RowError) argument properties to specify error text strings for invalid data cells and the [Error Row](https://docs.devexpress.com/AspNet/3775/components/grid-view/visual-elements/error-row).
 
     ```aspx
     <dx:ASPxGridView ID="ASPxGridView1" runat="server" KeyFieldName="EmployeeID"
@@ -109,10 +109,10 @@ Follow the steps below:
 
 ## Documentation
 
-* [Grid in Batch Edit Mode]()
-* [Validate Data in Grid]()
-* [BatchEditRowValidating]()
-* [RowValidating]()
+* [Grid in Batch Edit Mode](https://docs.devexpress.com/AspNet/16443/components/grid-view/concepts/edit-data/batch-edit-mode)
+* [Validate Data in Grid](https://docs.devexpress.com/AspNet/3747/components/grid-view/concepts/edit-data/validate-grid-data)
+* [BatchEditRowValidating](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.BatchEditRowValidating)
+* [RowValidating](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.RowValidating)
 
 ## More Examples
 
