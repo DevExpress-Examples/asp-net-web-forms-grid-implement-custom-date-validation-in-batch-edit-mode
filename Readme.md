@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - How to implement custom date validation in batch edit mode
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128534716/)**
-<!-- run online end -->
 
 This example demonstrates how to validate date column values on the client and server when the grid is in batch edit mode.
 
